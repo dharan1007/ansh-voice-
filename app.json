@@ -27,7 +27,7 @@
       "package": "com.example.voiceemotion"
     },
     "extra": {
-      "EXPO_PUBLIC_OPENAI_API_KEY": "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"
+      "EXPO_PUBLIC_OPENAI_API_KEY": ""
     }
   }
 }
