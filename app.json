@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Voice Emotion",
+    "slug": "voice-emotion",
+    "scheme": "voiceemotion",
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0B0D12"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "We use your microphone to capture voice input for transcription."
+      }
+    },
+    "android": {
+      "permissions": ["RECORD_AUDIO"],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0B0D12"
+      },
+      "package": "com.example.voiceemotion"
+    },
+    "extra": {
+      "EXPO_PUBLIC_OPENAI_API_KEY": "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"
+    }
+  }
+}
